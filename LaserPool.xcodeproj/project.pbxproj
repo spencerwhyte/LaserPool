@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31ABD66198D085100A67B21 /* Vector2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31ABD65198D085100A67B21 /* Vector2D.mm */; };
+		F31ABD69198D08CC00A67B21 /* Collision.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31ABD68198D08CC00A67B21 /* Collision.mm */; };
+		F31ABD6F198D0CD300A67B21 /* Rail.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31ABD6E198D0CD300A67B21 /* Rail.mm */; };
+		F31ABD72198D0CDD00A67B21 /* Pocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31ABD71198D0CDD00A67B21 /* Pocket.mm */; };
+		F31ABD75198D853000A67B21 /* Point2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31ABD74198D853000A67B21 /* Point2D.mm */; };
+		F38ECE5D1982CDE100F06A1A /* PoolTableOverlayView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38ECE5C1982CDE100F06A1A /* PoolTableOverlayView.mm */; };
+		F38ECE601982CF1900F06A1A /* LaserPoolViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38ECE5F1982CF1900F06A1A /* LaserPoolViewController.mm */; };
+		F38ECE631982DCAF00F06A1A /* Cue.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38ECE621982DCAF00F06A1A /* Cue.mm */; };
+		F38ECE661982DE3800F06A1A /* PoolTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38ECE651982DE3800F06A1A /* PoolTable.mm */; };
+		F38ECE6A1982E13300F06A1A /* Ball.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38ECE691982E13300F06A1A /* Ball.mm */; };
+		F38ECE6D1982E14600F06A1A /* CueBall.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38ECE6C1982E14600F06A1A /* CueBall.mm */; };
+		F391A4A319AC3F6600515920 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F391A4A219AC3F6600515920 /* opencv2.framework */; };
+		F391A4A719AC402F00515920 /* VisionMaster3000.mm in Sources */ = {isa = PBXBuildFile; fileRef = F391A4A619AC402F00515920 /* VisionMaster3000.mm */; };
+		F391A4A919AC41DD00515920 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F391A4A819AC41DD00515920 /* AVFoundation.framework */; };
+		F391A4AB19AC41EC00515920 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F391A4AA19AC41EC00515920 /* QuartzCore.framework */; };
+		F391A4AD19AC420C00515920 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F391A4AC19AC420C00515920 /* CoreMedia.framework */; };
+		F391A4AF19AC421300515920 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F391A4AE19AC421300515920 /* CoreVideo.framework */; };
+		F391A4B119AC422700515920 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F391A4B019AC422700515920 /* AssetsLibrary.framework */; };
 		F3A00560197F15BB00C9FA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0055F197F15BB00C9FA3A /* Foundation.framework */; };
 		F3A00562197F15BB00C9FA3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A00561197F15BB00C9FA3A /* CoreGraphics.framework */; };
 		F3A00564197F15BB00C9FA3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A00563197F15BB00C9FA3A /* UIKit.framework */; };
 		F3A0056A197F15BB00C9FA3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A00568197F15BB00C9FA3A /* InfoPlist.strings */; };
-		F3A0056C197F15BB00C9FA3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A0056B197F15BB00C9FA3A /* main.m */; };
-		F3A00570197F15BB00C9FA3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A0056F197F15BB00C9FA3A /* AppDelegate.m */; };
+		F3A0056C197F15BB00C9FA3A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3A0056B197F15BB00C9FA3A /* main.mm */; };
+		F3A00570197F15BB00C9FA3A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3A0056F197F15BB00C9FA3A /* AppDelegate.mm */; };
 		F3A00572197F15BB00C9FA3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A00571197F15BB00C9FA3A /* Images.xcassets */; };
 		F3A00579197F15BB00C9FA3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A00578197F15BB00C9FA3A /* XCTest.framework */; };
 		F3A0057A197F15BB00C9FA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0055F197F15BB00C9FA3A /* Foundation.framework */; };
 		F3A0057B197F15BB00C9FA3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A00563197F15BB00C9FA3A /* UIKit.framework */; };
 		F3A00583197F15BB00C9FA3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A00581197F15BB00C9FA3A /* InfoPlist.strings */; };
-		F3A00585197F15BB00C9FA3A /* LaserPoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A00584197F15BB00C9FA3A /* LaserPoolTests.m */; };
+		F3A00585197F15BB00C9FA3A /* LaserPoolTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3A00584197F15BB00C9FA3A /* LaserPoolTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +50,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31ABD64198D085100A67B21 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
+		F31ABD65198D085100A67B21 /* Vector2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Vector2D.mm; sourceTree = "<group>"; };
+		F31ABD67198D08CC00A67B21 /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+		F31ABD68198D08CC00A67B21 /* Collision.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Collision.mm; sourceTree = "<group>"; };
+		F31ABD6D198D0CD300A67B21 /* Rail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rail.h; sourceTree = "<group>"; };
+		F31ABD6E198D0CD300A67B21 /* Rail.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Rail.mm; sourceTree = "<group>"; };
+		F31ABD70198D0CDD00A67B21 /* Pocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pocket.h; sourceTree = "<group>"; };
+		F31ABD71198D0CDD00A67B21 /* Pocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Pocket.mm; sourceTree = "<group>"; };
+		F31ABD73198D853000A67B21 /* Point2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2D.h; sourceTree = "<group>"; };
+		F31ABD74198D853000A67B21 /* Point2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Point2D.mm; sourceTree = "<group>"; };
+		F38ECE5B1982CDE100F06A1A /* PoolTableOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolTableOverlayView.h; sourceTree = "<group>"; };
+		F38ECE5C1982CDE100F06A1A /* PoolTableOverlayView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PoolTableOverlayView.mm; sourceTree = "<group>"; };
+		F38ECE5E1982CF1900F06A1A /* LaserPoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaserPoolViewController.h; sourceTree = "<group>"; };
+		F38ECE5F1982CF1900F06A1A /* LaserPoolViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LaserPoolViewController.mm; sourceTree = "<group>"; };
+		F38ECE611982DCAF00F06A1A /* Cue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cue.h; sourceTree = "<group>"; };
+		F38ECE621982DCAF00F06A1A /* Cue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cue.mm; sourceTree = "<group>"; };
+		F38ECE641982DE3800F06A1A /* PoolTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolTable.h; sourceTree = "<group>"; };
+		F38ECE651982DE3800F06A1A /* PoolTable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PoolTable.mm; sourceTree = "<group>"; };
+		F38ECE681982E13300F06A1A /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		F38ECE691982E13300F06A1A /* Ball.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ball.mm; sourceTree = "<group>"; };
+		F38ECE6B1982E14600F06A1A /* CueBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CueBall.h; sourceTree = "<group>"; };
+		F38ECE6C1982E14600F06A1A /* CueBall.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CueBall.mm; sourceTree = "<group>"; };
+		F391A4A219AC3F6600515920 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		F391A4A519AC402F00515920 /* VisionMaster3000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionMaster3000.h; sourceTree = "<group>"; };
+		F391A4A619AC402F00515920 /* VisionMaster3000.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VisionMaster3000.mm; sourceTree = "<group>"; };
+		F391A4A819AC41DD00515920 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F391A4AA19AC41EC00515920 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F391A4AC19AC420C00515920 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F391A4AE19AC421300515920 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F391A4B019AC422700515920 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		F3A0055C197F15BB00C9FA3A /* LaserPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A0055F197F15BB00C9FA3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3A00561197F15BB00C9FA3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F3A00563197F15BB00C9FA3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3A00567197F15BB00C9FA3A /* LaserPool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaserPool-Info.plist"; sourceTree = "<group>"; };
 		F3A00569197F15BB00C9FA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F3A0056B197F15BB00C9FA3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3A0056B197F15BB00C9FA3A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		F3A0056D197F15BB00C9FA3A /* LaserPool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaserPool-Prefix.pch"; sourceTree = "<group>"; };
 		F3A0056E197F15BB00C9FA3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F3A0056F197F15BB00C9FA3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3A0056F197F15BB00C9FA3A /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		F3A00571197F15BB00C9FA3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3A00577197F15BB00C9FA3A /* LaserPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A00578197F15BB00C9FA3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F3A00580197F15BB00C9FA3A /* LaserPoolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaserPoolTests-Info.plist"; sourceTree = "<group>"; };
 		F3A00582197F15BB00C9FA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F3A00584197F15BB00C9FA3A /* LaserPoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaserPoolTests.m; sourceTree = "<group>"; };
+		F3A00584197F15BB00C9FA3A /* LaserPoolTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LaserPoolTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +103,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F391A4B119AC422700515920 /* AssetsLibrary.framework in Frameworks */,
+				F391A4AF19AC421300515920 /* CoreVideo.framework in Frameworks */,
+				F391A4AD19AC420C00515920 /* CoreMedia.framework in Frameworks */,
+				F391A4AB19AC41EC00515920 /* QuartzCore.framework in Frameworks */,
+				F391A4A919AC41DD00515920 /* AVFoundation.framework in Frameworks */,
 				F3A00562197F15BB00C9FA3A /* CoreGraphics.framework in Frameworks */,
 				F3A00564197F15BB00C9FA3A /* UIKit.framework in Frameworks */,
+				F391A4A319AC3F6600515920 /* opencv2.framework in Frameworks */,
 				F3A00560197F15BB00C9FA3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +128,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F38ECE671982DE4000F06A1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F38ECE611982DCAF00F06A1A /* Cue.h */,
+				F38ECE621982DCAF00F06A1A /* Cue.mm */,
+				F38ECE641982DE3800F06A1A /* PoolTable.h */,
+				F38ECE651982DE3800F06A1A /* PoolTable.mm */,
+				F38ECE681982E13300F06A1A /* Ball.h */,
+				F38ECE691982E13300F06A1A /* Ball.mm */,
+				F38ECE6B1982E14600F06A1A /* CueBall.h */,
+				F38ECE6C1982E14600F06A1A /* CueBall.mm */,
+				F31ABD64198D085100A67B21 /* Vector2D.h */,
+				F31ABD65198D085100A67B21 /* Vector2D.mm */,
+				F31ABD67198D08CC00A67B21 /* Collision.h */,
+				F31ABD68198D08CC00A67B21 /* Collision.mm */,
+				F31ABD6D198D0CD300A67B21 /* Rail.h */,
+				F31ABD6E198D0CD300A67B21 /* Rail.mm */,
+				F31ABD70198D0CDD00A67B21 /* Pocket.h */,
+				F31ABD71198D0CDD00A67B21 /* Pocket.mm */,
+				F31ABD73198D853000A67B21 /* Point2D.h */,
+				F31ABD74198D853000A67B21 /* Point2D.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F391A4A419AC3FF600515920 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				F391A4A519AC402F00515920 /* VisionMaster3000.h */,
+				F391A4A619AC402F00515920 /* VisionMaster3000.mm */,
+			);
+			name = Vision;
+			sourceTree = "<group>";
+		};
 		F3A00553197F15BB00C9FA3A = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +184,12 @@
 		F3A0055E197F15BB00C9FA3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F391A4B019AC422700515920 /* AssetsLibrary.framework */,
+				F391A4AE19AC421300515920 /* CoreVideo.framework */,
+				F391A4AC19AC420C00515920 /* CoreMedia.framework */,
+				F391A4AA19AC41EC00515920 /* QuartzCore.framework */,
+				F391A4A819AC41DD00515920 /* AVFoundation.framework */,
+				F391A4A219AC3F6600515920 /* opencv2.framework */,
 				F3A0055F197F15BB00C9FA3A /* Foundation.framework */,
 				F3A00561197F15BB00C9FA3A /* CoreGraphics.framework */,
 				F3A00563197F15BB00C9FA3A /* UIKit.framework */,
@@ -107,10 +201,16 @@
 		F3A00565197F15BB00C9FA3A /* LaserPool */ = {
 			isa = PBXGroup;
 			children = (
+				F391A4A419AC3FF600515920 /* Vision */,
+				F38ECE671982DE4000F06A1A /* Model */,
 				F3A0056E197F15BB00C9FA3A /* AppDelegate.h */,
-				F3A0056F197F15BB00C9FA3A /* AppDelegate.m */,
+				F3A0056F197F15BB00C9FA3A /* AppDelegate.mm */,
 				F3A00571197F15BB00C9FA3A /* Images.xcassets */,
 				F3A00566197F15BB00C9FA3A /* Supporting Files */,
+				F38ECE5B1982CDE100F06A1A /* PoolTableOverlayView.h */,
+				F38ECE5C1982CDE100F06A1A /* PoolTableOverlayView.mm */,
+				F38ECE5E1982CF1900F06A1A /* LaserPoolViewController.h */,
+				F38ECE5F1982CF1900F06A1A /* LaserPoolViewController.mm */,
 			);
 			path = LaserPool;
 			sourceTree = "<group>";
@@ -120,7 +220,7 @@
 			children = (
 				F3A00567197F15BB00C9FA3A /* LaserPool-Info.plist */,
 				F3A00568197F15BB00C9FA3A /* InfoPlist.strings */,
-				F3A0056B197F15BB00C9FA3A /* main.m */,
+				F3A0056B197F15BB00C9FA3A /* main.mm */,
 				F3A0056D197F15BB00C9FA3A /* LaserPool-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -129,7 +229,7 @@
 		F3A0057E197F15BB00C9FA3A /* LaserPoolTests */ = {
 			isa = PBXGroup;
 			children = (
-				F3A00584197F15BB00C9FA3A /* LaserPoolTests.m */,
+				F3A00584197F15BB00C9FA3A /* LaserPoolTests.mm */,
 				F3A0057F197F15BB00C9FA3A /* Supporting Files */,
 			);
 			path = LaserPoolTests;
@@ -239,8 +339,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A00570197F15BB00C9FA3A /* AppDelegate.m in Sources */,
-				F3A0056C197F15BB00C9FA3A /* main.m in Sources */,
+				F31ABD69198D08CC00A67B21 /* Collision.mm in Sources */,
+				F38ECE601982CF1900F06A1A /* LaserPoolViewController.mm in Sources */,
+				F31ABD6F198D0CD300A67B21 /* Rail.mm in Sources */,
+				F31ABD75198D853000A67B21 /* Point2D.mm in Sources */,
+				F391A4A719AC402F00515920 /* VisionMaster3000.mm in Sources */,
+				F3A00570197F15BB00C9FA3A /* AppDelegate.mm in Sources */,
+				F31ABD66198D085100A67B21 /* Vector2D.mm in Sources */,
+				F31ABD72198D0CDD00A67B21 /* Pocket.mm in Sources */,
+				F38ECE661982DE3800F06A1A /* PoolTable.mm in Sources */,
+				F38ECE5D1982CDE100F06A1A /* PoolTableOverlayView.mm in Sources */,
+				F38ECE6D1982E14600F06A1A /* CueBall.mm in Sources */,
+				F3A0056C197F15BB00C9FA3A /* main.mm in Sources */,
+				F38ECE6A1982E13300F06A1A /* Ball.mm in Sources */,
+				F38ECE631982DCAF00F06A1A /* Cue.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A00585197F15BB00C9FA3A /* LaserPoolTests.m in Sources */,
+				F3A00585197F15BB00C9FA3A /* LaserPoolTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +471,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/spencerwhyte/Desktop/LaneChangeProto,
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaserPool/LaserPool-Prefix.pch";
 				INFOPLIST_FILE = "LaserPool/LaserPool-Info.plist";
@@ -372,6 +489,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/spencerwhyte/Desktop/LaneChangeProto,
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaserPool/LaserPool-Prefix.pch";
 				INFOPLIST_FILE = "LaserPool/LaserPool-Info.plist";
@@ -439,6 +561,7 @@
 				F3A0058A197F15BB00C9FA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3A0058B197F15BB00C9FA3A /* Build configuration list for PBXNativeTarget "LaserPoolTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +570,7 @@
 				F3A0058D197F15BB00C9FA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

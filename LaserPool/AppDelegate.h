@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VisionMaster3000.h"
+
+#import "LaserPoolViewController.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
